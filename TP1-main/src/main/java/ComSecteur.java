@@ -7,7 +7,7 @@ public class ComSecteur implements Comparator<Secteur> {
         if(s1.getNombreAnimaux()>s2.getNombreAnimaux()){
             return 1;
         }
-        else if(s1.getNombreAnimaux()<=s2.getNombreAnimaux()){
+        else if(s1.getNombreAnimaux()<s2.getNombreAnimaux()){
             return -1;
         }
 

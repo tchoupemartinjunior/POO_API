@@ -63,6 +63,7 @@ public class AppTest {
         }
         System.out.println(s1 +""+ s2);
         assertEquals(1, new ComSecteur().compare(s1,s2));
-        assertEquals(-1, new ComSecteur().compare(s1,s2));
+        assertEquals(-1, new ComSecteur().compare(s2,s1));
+        assertEquals(0, new ComSecteur().compare(s1,s1));
     }
 }
