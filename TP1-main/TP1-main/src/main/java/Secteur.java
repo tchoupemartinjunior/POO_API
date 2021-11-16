@@ -25,4 +25,12 @@ public class Secteur {
 	public TypeAnimal obtenirType(){
 		return typeAnimauxDansSecteur;
 	}
+
+	@Override
+	public String toString() {
+		return "Secteur{" +
+				"animauxDansSecteur=" + animauxDansSecteur +
+				", typeAnimauxDansSecteur=" + typeAnimauxDansSecteur +
+				'}';
+	}
 }
