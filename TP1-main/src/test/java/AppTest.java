@@ -65,5 +65,6 @@ public class AppTest {
         assertEquals(1, new ComSecteur().compare(s1,s2));
         assertEquals(-1, new ComSecteur().compare(s2,s1));
         assertEquals(0, new ComSecteur().compare(s1,s1));
+        assertEquals(null, new ComSecteur().compare(new Secteur(TypeAnimal.CHAT),new Secteur(TypeAnimal.CHAT)));
     }
 }
